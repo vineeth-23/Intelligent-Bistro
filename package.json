@@ -1,0 +1,30 @@
+{
+  "name": "intelligent-bistro",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces --if-present",
+    "dev:api": "npm run dev -w apps/api",
+    "dev:mobile": "npm run start -w apps/mobile",
+    "test": "npm run test --workspaces --if-present",
+    "typecheck": "npm run typecheck --workspaces --if-present"
+  },
+  "overrides": {
+    "@react-native/virtualized-lists": "0.81.5",
+    "react": "19.1.0",
+    "react-native": "0.81.5"
+  },
+  "devDependencies": {
+    "@react-native/virtualized-lists": "0.81.5",
+    "@types/react": "~19.1.10",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "react-is": "19.1.0",
+    "react-native": "0.81.5",
+    "typescript": "^5.8.3"
+  }
+}

@@ -1,0 +1,20 @@
+The Challenge: "The Intelligent Bistro"
+
+
+Your task is to build a high-fidelity mobile experience where an AI assistant manages restaurant ordering. This is designed to evaluate how effectively you can leverage AI coding tools (e.g., Claude Code, Cursor, GitHub Copilot) to build production-quality software quickly.
+
+
+The Goal:
+Build a React Native (Expo) app and a Node.js backend that allows users to browse a menu and manage a shopping cart through a conversational AI interface.
+
+
+
+Core Requirements:
+• Visual Excellence: The app should be polished, intuitive, and visually appealing. You may use modern libraries such as NativeWind or Tamagui to ensure a premium look and feel.
+• Conversational Logic: The AI should interpret order intents and return structured JSON (e.g., parsing “Add two spicy chicken sandwiches and a large water” into cart updates).
+
+• State Management: A functional shopping cart that supports adding, removing, and modifying items (quantity/type) via both UI and AI input.
+• Backend: A Node.js API to process natural language and return structured responses/actions.
+
+o UI experience and usability
+o AI-driven cart interactions
