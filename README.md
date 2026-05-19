@@ -4,13 +4,10 @@ Intelligent Bistro is a high-fidelity Expo React Native ordering app with a Node
 
 The project was built for the challenge statement in [task.text](task.text): a polished mobile ordering experience where an AI assistant interprets restaurant-ordering intents and returns structured cart actions.
 
-## Screenshots
+## Demo Videos
 
-![Menu screen](docs/screenshots/menu.png)
-
-![Assistant screen](docs/screenshots/assistant.png)
-
-![Checkout screen](docs/screenshots/checkout.png)
+- [App demo](https://www.loom.com/share/404f9f53791445cb822dc0a4af42c0b1)
+- [Codebase demo](https://www.loom.com/share/9d660ed87f624417b3df90785b46d585)
 
 ## What It Does
 
